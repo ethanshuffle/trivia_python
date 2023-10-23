@@ -27,7 +27,7 @@ def print_difficulty():
 def choose_category():
     print_category()
 
-    choice = input("Select a choice 1 through 10: ")
+    choice = input("Select a choice 1 through 11: ")
 
     match choice:
         case '1':
