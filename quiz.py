@@ -31,6 +31,7 @@ def quiz_loop(quiz):
         print_question(question, answer_choices, correct_answer)
     
     #End of round stats
+    print("")
     print("You have ", total_right, " correct and ", total_wrong, " wrong")
     print("Total score: ", score)
     print("")
